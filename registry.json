@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "extensions": [
+    {
+      "id": "org.koren.lua",
+      "name": "Lua / LuaJIT / Luau",
+      "description": "Lua, LuaJIT, and Luau support via LuaLS, luau-lsp, and Lune",
+      "repo": "https://github.com/koren-idep/lua",
+      "latest_version": "0.1.0",
+      "file_extensions": [
+        "lua",
+        "lj",
+        "luau"
+      ],
+      "languages": [
+        "lua",
+        "luajit",
+        "luau"
+      ],
+      "tools": [
+        "lua-language-server",
+        "luau-lsp",
+        "lua",
+        "luajit",
+        "lune"
+      ]
+    },
+    {
+      "id": "org.koren.rust",
+      "name": "Rust",
+      "description": "Rust language support via rust-analyzer and Cargo",
+      "repo": "https://github.com/koren-idep/rust",
+      "latest_version": "0.1.0",
+      "file_extensions": [
+        "rs"
+      ],
+      "languages": [
+        "rust"
+      ],
+      "tools": [
+        "rust-analyzer",
+        "cargo"
+      ]
+    },
+    {
+      "id": "org.koren.toml",
+      "name": "TOML",
+      "description": "TOML support via Taplo",
+      "repo": "https://github.com/koren-idep/toml",
+      "latest_version": "0.1.0",
+      "file_extensions": [
+        "toml"
+      ],
+      "languages": [
+        "toml"
+      ],
+      "tools": [
+        "taplo"
+      ]
+    },
+    {
+      "id": "org.koren.json",
+      "name": "JSON / JSONC",
+      "description": "JSON and JSONC support via vscode-json-language-server",
+      "repo": "https://github.com/koren-idep/json",
+      "latest_version": "0.1.0",
+      "file_extensions": [
+        "json",
+        "jsonc"
+      ],
+      "languages": [
+        "json",
+        "jsonc"
+      ],
+      "tools": [
+        "vscode-json-language-server"
+      ]
+    }
+  ]
+}
